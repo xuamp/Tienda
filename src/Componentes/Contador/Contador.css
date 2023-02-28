@@ -1,16 +1,43 @@
 .Contador{
     height: auto;
-    width: 10vw;
-    background-color: rgb(196, 190, 190);
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    border-radius: 1em;
+    padding: 5px;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
 }
 
 .sumador{
     background-color: white;
+    padding: 3px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid black;
+    width: 150px;
+    height: 30px;
     border-radius: 1em;
+}
+
+.numero{
+    margin-bottom: 0;
+}
+
+.boton-comprar{
+    border-radius: 1em;
+    margin-top: 3px;
+    width: 150px;
+    background-color: rgb(46, 77, 255);
+    color: white;
+    border: none;
+}
+
+.ico-contador{
+    cursor: pointer;
 }
