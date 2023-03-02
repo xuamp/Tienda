@@ -1,0 +1,22 @@
+.ItemDetail{
+    width: 65%;
+    background-color: azure;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px auto;
+    display: flex;
+    height: 50vh;
+}
+
+.detalle-imagen{
+    width: 70%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.detalle-descrip{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+}

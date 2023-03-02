@@ -1,0 +1,13 @@
+.ListContainer{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}

@@ -1,14 +1,17 @@
+import { Link } from "react-router-dom";
 import "../Item/Item.css";
 
-function Item() {
+function Item(props) {
+
+const {imagen, titulo } = props
+
   return <div className="Item">
-    <div>
-        <img src="" alt="producto" />
+    <div className="item-img">
+        <img className="imagen" src={imagen} alt="producto" />
     </div>
-    <div>
-        <h2>TITULO</h2>
-        <p>Descripcion</p>
-        <p>valor</p>
+    <div className="item-nombre">
+        <h5>{titulo}</h5>
+        <Link to> <button className="boton-item">Detalles</button></Link>
     </div>
   </div>;
 }

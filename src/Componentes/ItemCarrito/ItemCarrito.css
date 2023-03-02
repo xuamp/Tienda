@@ -1,0 +1,21 @@
+.div-carrito{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    margin-left: 950%;
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.cantidad-carrito{
+    margin: 0;
+    font-size: 0.6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
