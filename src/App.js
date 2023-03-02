@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PrincipalContainer />} />
           <Route path="/detalle/:id" element={<DetailContainer />} />
+          <Route path="/categoria/:categoryName" element={<PrincipalContainer />} />
         </Routes>
       </BrowserRouter>
     </div>

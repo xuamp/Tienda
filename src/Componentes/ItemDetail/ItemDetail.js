@@ -1,17 +1,20 @@
 import Contador from "../Contador/Contador";
 import "../ItemDetail/ItemDetail.css"
-import { useParams } from "react-router-dom";
+
 
 function ItemDetail(props) {
+
+const { objeto } = props
+
   return (
     <div className="ItemDetail">
       <div className="detalle-imagen">
-        <img src="" alt="fotito" />
+        <img src={objeto.url} alt="fotito" />
       </div>
       <div className="detalle-descrip">
-        <p>Titulo</p>
-        <p>Lorem</p>
-        <p>Precio</p>
+        <p>{objeto.nombre}</p>
+        <p>{objeto.precio}</p>
+        <p>{objeto.descrip}</p>
         <Contador />
       </div>
     </div>

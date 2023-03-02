@@ -10,21 +10,21 @@ const Productos = [
   },
   {
     id: 2,
-    nombre: "Notebook HP I7",
-    url: "https://http2.mlstatic.com/D_NQ_NP_805951-MLA50865156506_072022-O.webp",
+    nombre: "Pc AMD Rayzen 5",
+    url: "https://http2.mlstatic.com/D_NQ_NP_639602-MLA50545131614_072022-O.webp",
     descrip:
-      "Su pantalla de 15.6 y 1366x768 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.",
+      "Pc Armada Gamer Amd Ryzen 5 4600g 16gb Nvme 480 Radeon Vega ",
     precio: 180000,
-    categoria: "Notebooks",
+    categoria: "Pc",
   },
   {
     id: 3,
-    nombre: "Notebook Lenovo I5",
-    url: "https://http2.mlstatic.com/D_NQ_NP_924295-MLA52854217391_122022-O.webp",
+    nombre: "Impresora Epson",
+    url: "https://http2.mlstatic.com/D_NQ_NP_984266-MLA48196101433_112021-O.webp",
     descrip:
-      "Con la Notebook Lenovo 1035g1 i5 (82C401J6US) vas a disfrutar de la combinación única entre portabilidad y usabilidad. Sus principales beneficios son Bluetooth, cámara web integrada, Wi-Fi, panel táctil multitáctil, micrófono integrado..",
+      "Impresora a color multifunción Epson EcoTank L3250 con wifi negra 220V",
     precio: 169000,
-    categoria: "Notebooks",
+    categoria: "impresoras",
   },
   {
     id: 4,
@@ -37,21 +37,21 @@ const Productos = [
   },
   {
     id: 5,
-    nombre: "Notebook Dell",
-    url: "https://http2.mlstatic.com/D_NQ_NP_813398-MLA49715524038_042022-O.webp",
+    nombre: "Pc Computadora",
+    url: "https://http2.mlstatic.com/D_NQ_NP_790556-MLA40569330791_012020-O.webp",
     descrip:
-      "Su pantalla de 15.6 y 1366x768 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.",
-    precio: 180000,
-    categoria: "Notebooks",
+      "Pc Computadora Completa Intel I3 1tb 8gb Con Monitor Led 19",
+    precio: 210000,
+    categoria: "Pc",
   },
   {
     id: 6,
-    nombre: "Notebook Lenovo I7",
-    url: "https://http2.mlstatic.com/D_NQ_NP_924295-MLA52854217391_122022-O.webp",
+    nombre: "Impresora HP",
+    url: "https://http2.mlstatic.com/D_NQ_NP_897533-MLA44220249729_122020-O.webp",
     descrip:
-      "Con la Notebook Lenovo 1035g1 i5 (82C401J6US) vas a disfrutar de la combinación única entre portabilidad y usabilidad. Sus principales beneficios son Bluetooth, cámara web integrada, Wi-Fi, panel táctil multitáctil, micrófono integrado..",
+      "Impresora a color multifunción HP Deskjet Ink Advantage 2775 con wifi blanca 100V/240V",
     precio: 169000,
-    categoria: "Notebooks",
+    categoria: "impresoras",
   },
 ];
 export default Productos;
